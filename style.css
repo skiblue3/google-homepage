@@ -18,7 +18,6 @@ ul.nav-bar {
 }
 li a {
     color: black;
-    font-family: Open Sans, sans-serif;
     font-size: 12px;
     text-decoration: none;
 }
@@ -47,10 +46,22 @@ a:hover {
 button {
     font-family: Open Sans;
     background-color: #f9f9f9;
+    color: #333;
     border: none;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 button:hover {
-    box-shadow: 1px 1px 0.1px 0.1px #424242;
+    box-shadow: 0px 0px 2px 0.2px #424242;
+}
+p {
+    font-size: 12px;
+    margin-top: 20px;
+    display: flex;
+    column-gap: 8px;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: blue;
 }
