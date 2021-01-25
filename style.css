@@ -25,3 +25,32 @@ li a {
 a:hover {
     text-decoration: underline;
 }
+#logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+#search {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 420px;
+    height: 35px;
+    font-family: Open Sans;
+}
+#buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+button {
+    font-family: Open Sans;
+    background-color: #f9f9f9;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+button:hover {
+    box-shadow: 1px 1px 0.1px 0.1px #424242;
+}
