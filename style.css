@@ -15,6 +15,7 @@ ul.nav-bar {
     justify-content: flex-end;
     align-items: center;
     column-gap: 25px;
+    
 }
 li a {
     color: black;
@@ -61,7 +62,30 @@ p {
     column-gap: 8px;
     justify-content: center;
 }
-a {
+p a {
     text-decoration: none;
     color: blue;
+}
+footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #777;
+    background-color: #eee;
+    font-size: 14px;
+}
+#footer1{
+    padding: 10px 20px;
+    border-bottom: 1px solid #bbb;
+}
+ul.foot-bar{
+    padding: 10px 20px;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 15px;
+}
+li.foot-bar a.foot-bar{
+    color: #777;
 }
