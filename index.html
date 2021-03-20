@@ -22,12 +22,12 @@
             <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             <form>
                 <div id="search-bar">
-                    <img id="magnifying" alt="" src="https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon-by-vexels.png">
+                    <img id="magnifying" class="search-button" alt="" src="https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon-by-vexels.png">
                     <input type="search" id="search">
                     <img id="mic" alt="" src="https://seeklogo.com/images/G/google-mic-logo-33133A4F5F-seeklogo.com.png">
                 </div>
                 <div id="buttons">
-                    <button>Google Search</button>
+                    <button class="search-button">Google Search</button>
                     <button>I'm Feeling Lucky</button>
                 </div>
             </form>
@@ -64,4 +64,13 @@
 
         </footer>
     </body>
+    <script>
+        const searchs = document.querySelectorAll('.search-button');
+        searchs.forEach((search) => {
+            search.addEventListener('click', () => {
+                let data = document.querySelector('#search').value;
+                window.open(`https://www.google.com/search?q=${data}`);
+            });
+        });
+    </script>
 </html>

@@ -47,7 +47,7 @@ a:hover {
     font-family: Open Sans;
 }
 #search:focus{
-    border: none;
+    outline: none;
 }
 #magnifying {
     display: block;
